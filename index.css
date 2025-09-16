@@ -1,0 +1,52 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: Timer;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 575px;
+    height: 385px;
+    font-family: Timer, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+#team-title {
+    color: #EEEEEE;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 0px 21px 0px;
+}
+
+.score {
+    font-size: 90px;
+    margin: 21px 20px 26px 18px;
+    padding: 17px 18px 0px 18px;
+    color: #F94F6D;
+    background: #080001;
+}
+
+#point {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+    margin: 26px 0px 0xp 0px;
+}
+
+button {
+    border-radius: 5px;
+    background: none;
+    color: #9AABD8;
+    font-family: inherit;
+    padding: 0px 8px;
+    border: 2px solid #9AABD8;
+}
